@@ -8,6 +8,7 @@ def main():
     total_bi = total(lst, 1)
     total_com = total(lst, 2)
     total_net = total(lst, 3)
+    avcom, avnet = average(lst, total_com, total_net)
 
 def total(lst, time):
     count = 0
